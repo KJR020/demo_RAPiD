@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "RPiD_demo"
+version = "0.1.0"
+description = ""
+authors = ["Kojiro <johnjiro1114@gmail.com>"]
+readme = "README.md"
+packages = [{include = "env_rapid"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
